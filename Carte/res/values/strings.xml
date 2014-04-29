@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carte</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="mapKey">AIzaSyCsVV11SG4O0Fq6TGx0A2shpvrsPSUWr5s</string>
+    
+    <string name="provider_enabled">Le %s est maintenant activé</string>
+    <string name="provider_disabled">Le %s est maintenant déactivé</string>
+    <string name="provider_new_status">The provider %1$s has now a new status %2$s</string>
+    
+    <string name="new_location">Nouvelle Position : Latitude = %1$s, Longitude = %2$s, Altitude = %3$s avec une précision de %4$s mètres </string>
+   
+    <string name="satellite">carte satellite</string>
+    <string name="hybrid">carte hybride</string>
+    <string name="normal">carte normale</string>
+    <string name="terrain">carte terrain</string>
+    <string name="none">carte vide</string>
+    
+    <string name="distance">DISTANCE PARCOURUE : </string>
+    <string name="km">0</string>
+    <string name="unite">KM</string>
+    <string name="reset">RESET!</string>
+    
+    <string name="pos"/>
+    
+    <string name="red">couleur du chemin : rouge</string>
+    <string name="blue">couleur du chemin : bleue</string>
+    <string name="green">couleur du chemin : vert</string>
+    <string name="black">couleur du chemin : noir</string>
+    
+    <string name="couleur">choix de la couleur du chemin :</string>
+    
+    <string name="petit">trait fin</string>
+    <string name="moyen">trait moyen</string>
+    <string name="gros">tres epais</string>
+    <string name="epais">trait très epais</string>
+   	
+   	<string name="trait">choix de l\'épaisseur du trait</string>
+    
+   	<string name="cpt">Il y a : </string>
+    <string name="nb_marqueur"> 0 </string>
+	<string name="cpt_deux"> marqueurs</string>
+	
+	<string name="chronometre">CHRONOMETRE  :  </string>
+	<string name="start"> START!</string>
+    <string name="stop"> STOP!</string>
+    
+    
+    
+</resources>

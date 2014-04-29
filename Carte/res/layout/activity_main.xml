@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099CC"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/km"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/unite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unite"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+
+       <Button   
+              android:text="@string/reset"
+              android:textColor="#CC00"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+         	  android:onClick="reset"    />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099CC"
+        android:orientation="horizontal" >
+        
+         <TextView
+            android:id="@+id/pos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pos"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+        
+        </LinearLayout>
+        
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099CC"
+        android:orientation="horizontal" 
+        >
+        
+         <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpt"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+         
+          <TextView
+              android:id="@+id/marqueur"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/nb_marqueur"
+              android:textColor="#CC00"
+              android:textStyle="bold" />
+        
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpt_deux"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+          
+          
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099CC"
+        android:orientation="horizontal" 
+        >
+        
+         <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chronometre"
+            android:textColor="#CC00"
+            android:textStyle="bold" />
+         
+         
+         <Chronometer
+            
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CC00"
+            android:textStyle="bold"
+             />
+         
+          <Button   
+              android:text="@string/start"
+              android:textColor="#CC00"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+         	  android:onClick="start"    />
+        
+          <Button   
+              android:text="@string/stop"
+              android:textColor="#CC00"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:onClick="stop"
+              />
+          
+          
+    </LinearLayout>   
+    
+    
+<fragment 
+   		  android:id="@+id/map"
+   		  android:layout_width="match_parent"
+   		  android:layout_height="match_parent"
+   		  class="com.google.android.gms.maps.MapFragment" /> 
+   		  
+
+    
+</LinearLayout>
+
+
+<!--  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+    
+    
+    <TextView android:id="@+id/description"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"/>
+    
+    
+    
+    
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:enabled="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="@string/mapKey"
+        android:clickable="true"
+     />
+    
+    
+
+</LinearLayout>
+-->
+
+
+    
+    
+    
+    
+    
